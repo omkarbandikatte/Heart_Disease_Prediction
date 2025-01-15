@@ -4,7 +4,7 @@ import pickle
 
 # Load the trained model
 try:
-    with open(r"new_model.pkl", "rb") as f:
+    with open("new_model.pkl", "rb") as f:
         best_model = pickle.load(f)
 except Exception as e:
     st.write(f"Error loading model: {e}")
