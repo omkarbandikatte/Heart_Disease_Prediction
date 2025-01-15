@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import joblib
 
 # Load the trained model
 try:
