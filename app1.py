@@ -4,7 +4,7 @@ import pickle
 
 # Load the trained model
 try:
-    with open(r"C:\Users\omkar\OneDrive\Desktop\PythonProjects\Machine Learning Projects\HEART_DISEASE_PREDICTION\new_model.pkl", "rb") as f:
+    with open(r"new_model.pkl", "rb") as f:
         best_model = pickle.load(f)
 except Exception as e:
     st.write(f"Error loading model: {e}")
