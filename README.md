@@ -2,6 +2,8 @@
 
 This repository provides a streamlined solution for predicting heart disease using machine learning, integrated with an interactive Streamlit web application.
 
+Check out the deployed app: [Heart Disease Prediction](https://heartdiseaseprediction-bvgcuvmrkonftkg7nb8bhg.streamlit.app/)
+
 ## Repository Contents
 
 - **`Heart Disease Prediction Model.ipynb`**: A Jupyter Notebook demonstrating the model's development, including data preprocessing, training, and evaluation.
