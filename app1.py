@@ -29,7 +29,7 @@ def main():
     ca = st.number_input("Number of Major Vessels (0-3) Colored by Fluoroscopy", min_value=0, max_value=3, value=0)
     thal = st.selectbox("Thalassemia", ["Normal", "Fixed Defect", "Reversable Defect"])
 
-    # Create input DataFrame
+    # Creating input DataFrame
     input_data = pd.DataFrame({
         'age': [age],
         'sex': [1 if sex == "Male" else 0],
@@ -52,7 +52,7 @@ def main():
     # Predict button
     if st.button("Predict"):
         try:
-            # Make prediction
+            # Making prediction
             result = best_model.predict(input_data)[0]
             if result == 1:
                 st.success("Prediction: Heart Disease Detected")
